@@ -1,0 +1,63 @@
+Job id: 31941122
+Allocated node: cpu-e-1
+Tue  1 Dec 16:54:21 GMT 2020
+
+Job name: s05_remove_filtered_variants_from_ST349
+
+Initial working folder:
+/rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s00_scripts/s04_explore_and_qc_short_variant_vcfs
+
+ ------------------ Job progress ------------------ 
+
+Remove filtered variants from ST349 hard filters
+and calculate stats after the removal
+Tue  1 Dec 16:54:21 GMT 2020
+
+source_vcf: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s03_ST349/s03_dragen_joined_genotyping/s01_short_variants/ST349_dragen_joint.hard-filtered.vcf.gz
+output_vcf: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s03_ST349/s04_explore_and_qc_short_variant_vcfs/ST349_short_variants_pf.vcf.gz
+
+Counts in source VCF
+
+[W::hts_idx_load3] The index file is older than the data file: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s03_ST349/s03_dragen_joined_genotyping/s01_short_variants/ST349_dragen_joint.hard-filtered.vcf.gz.tbi
+Number of samples: 5
+Number of SNPs:    6040874
+Number of INDELs:  1373877
+Number of MNPs:    0
+Number of others:  0
+Number of sites:   7388507
+
+FILTER column in source VCF
+
+[W::hts_idx_load3] The index file is older than the data file: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s03_ST349/s03_dragen_joined_genotyping/s01_short_variants/ST349_dragen_joint.hard-filtered.vcf.gz.tbi
+7165419 PASS
+ 131935 DRAGENSnpHardQUAL
+  56095 DRAGENIndelHardQUAL
+  32626 DRAGENSnpHardQUAL;LowDepth
+   1395 DRAGENIndelHardQUAL;LowDepth
+   1037 LowDepth
+
+Filtering ...
+
+[W::hts_idx_load3] The index file is older than the data file: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s03_ST349/s03_dragen_joined_genotyping/s01_short_variants/ST349_dragen_joint.hard-filtered.vcf.gz.tbi
+Counts in output VCF
+
+Number of samples: 5
+Number of SNPs:    5876234
+Number of INDELs:  1315350
+Number of MNPs:    0
+Number of others:  0
+Number of sites:   7165419
+
+FILTER column in output VCF
+
+7165419 PASS
+
+Calculating stats for output VCF ...
+Making plots...
+Parsing bcftools stats output: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s03_ST349/s04_explore_and_qc_short_variant_vcfs/s02_bcfstats_filtered/bcfstats.vchk
+Plotting graphs: python3 plot.py
+Creating PDF: pdflatex summary.tex >plot-vcfstats.log 2>&1
+Finished: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s03_ST349/s04_explore_and_qc_short_variant_vcfs/s02_bcfstats_filtered/summary.pdf
+
+Done all tasks
+Tue  1 Dec 17:05:38 GMT 2020

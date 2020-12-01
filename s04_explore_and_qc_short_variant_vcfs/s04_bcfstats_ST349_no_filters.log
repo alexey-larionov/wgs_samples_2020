@@ -1,0 +1,37 @@
+Job id: 31940581
+Allocated node: cpu-e-1
+Tue  1 Dec 16:50:16 GMT 2020
+
+Job name: s04_bcfstats_ST349_no_filters
+
+Initial working folder:
+/rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s00_scripts/s04_explore_and_qc_short_variant_vcfs
+
+ ------------------ Job progress ------------------ 
+
+QC for joint ST349 w/o hard filters
+Tue  1 Dec 16:50:16 GMT 2020
+
+vcf_file: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s03_ST349/s03_dragen_joined_genotyping/s01_short_variants/ST349_dragen_joint.vcf.gz
+stats_folder: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s03_ST349/s04_explore_and_qc_short_variant_vcfs/s01_bcfstats_no_filters
+
+Calculating counts...
+
+[W::hts_idx_load3] The index file is older than the data file: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s03_ST349/s03_dragen_joined_genotyping/s01_short_variants/ST349_dragen_joint.vcf.gz.tbi
+Number of samples: 5
+Number of SNPs:    6040874
+Number of INDELs:  1373877
+Number of MNPs:    0
+Number of others:  0
+Number of sites:   7388507
+
+Calculating stats...
+[W::hts_idx_load3] The index file is older than the data file: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s03_ST349/s03_dragen_joined_genotyping/s01_short_variants/ST349_dragen_joint.vcf.gz.tbi
+Making plots...
+Parsing bcftools stats output: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s03_ST349/s04_explore_and_qc_short_variant_vcfs/s01_bcfstats_no_filters/bcfstats.vchk
+Plotting graphs: python3 plot.py
+Creating PDF: pdflatex summary.tex >plot-vcfstats.log 2>&1
+Finished: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s03_ST349/s04_explore_and_qc_short_variant_vcfs/s01_bcfstats_no_filters/summary.pdf
+
+Done
+Tue  1 Dec 16:53:34 GMT 2020

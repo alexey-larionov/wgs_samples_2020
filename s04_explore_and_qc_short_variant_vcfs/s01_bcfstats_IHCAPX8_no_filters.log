@@ -1,0 +1,37 @@
+Job id: 31937214
+Allocated node: cpu-e-1
+Tue  1 Dec 16:24:14 GMT 2020
+
+Job name: s01_bcfstats_IHCAPX8_no_filters
+
+Initial working folder:
+/rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s00_scripts/s04_explore_and_qc_short_variant_vcfs
+
+ ------------------ Job progress ------------------ 
+
+QC for joint IHCAPX8 w/o hard filters
+Tue  1 Dec 16:24:14 GMT 2020
+
+vcf_file: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s02_IHCAPX8/s03_dragen_joined_genotyping/s01_short_variants/IHCAPX8_dragen_joint.vcf.gz
+stats_folder: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s02_IHCAPX8/s04_explore_and_qc_short_variant_vcfs/s01_bcfstats_no_filters
+
+Calculating counts...
+
+[W::hts_idx_load3] The index file is older than the data file: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s02_IHCAPX8/s03_dragen_joined_genotyping/s01_short_variants/IHCAPX8_dragen_joint.vcf.gz.tbi
+Number of samples: 3
+Number of SNPs:    6255182
+Number of INDELs:  1363927
+Number of MNPs:    0
+Number of others:  0
+Number of sites:   7597709
+
+Calculating stats...
+[W::hts_idx_load3] The index file is older than the data file: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s02_IHCAPX8/s03_dragen_joined_genotyping/s01_short_variants/IHCAPX8_dragen_joint.vcf.gz.tbi
+Making plots...
+Parsing bcftools stats output: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s02_IHCAPX8/s04_explore_and_qc_short_variant_vcfs/s01_bcfstats_no_filters/bcfstats.vchk
+Plotting graphs: python3 plot.py
+Creating PDF: pdflatex summary.tex >plot-vcfstats.log 2>&1
+Finished: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s02_IHCAPX8/s04_explore_and_qc_short_variant_vcfs/s01_bcfstats_no_filters/summary.pdf
+
+Done
+Tue  1 Dec 16:26:29 GMT 2020

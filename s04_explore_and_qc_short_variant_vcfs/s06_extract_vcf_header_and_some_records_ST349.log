@@ -1,0 +1,24 @@
+Job id: 31943240
+Allocated node: cpu-e-1
+Tue  1 Dec 17:11:34 GMT 2020
+
+Job name: s06_extract_vcf_header_and_some_records_ST349
+
+Initial working folder:
+/rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s00_scripts/s04_explore_and_qc_short_variant_vcfs
+
+ ------------------ Job progress ------------------ 
+
+Remove filtered variants from ST349 hard filters
+and calculate stats after the removal
+Tue  1 Dec 17:11:34 GMT 2020
+
+source_vcf: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s03_ST349/s04_explore_and_qc_short_variant_vcfs/ST349_short_variants_pf.vcf.gz
+vcf_header: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s03_ST349/s04_explore_and_qc_short_variant_vcfs/s03_extracts_from_vcf/ST349_short_variants_pf_header.txt
+vcf_extract: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s03_ST349/s04_explore_and_qc_short_variant_vcfs/s03_extracts_from_vcf/ST349_short_variants_pf_extract.txt
+
+Extracting header ...
+Extracting some variant records ...
+
+Done all tasks
+Tue  1 Dec 17:13:34 GMT 2020

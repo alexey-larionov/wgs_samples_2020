@@ -1,0 +1,63 @@
+Job id: 31937592
+Allocated node: cpu-e-1
+Tue  1 Dec 16:27:09 GMT 2020
+
+Job name: s02_remove_filtered_variants_from_IHCAPX8
+
+Initial working folder:
+/rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s00_scripts/s04_explore_and_qc_short_variant_vcfs
+
+ ------------------ Job progress ------------------ 
+
+Remove filtered variants from IHCAPX8 hard filters
+and calculate stats after the removal
+Tue  1 Dec 16:27:09 GMT 2020
+
+source_vcf: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s02_IHCAPX8/s03_dragen_joined_genotyping/s01_short_variants/IHCAPX8_dragen_joint.hard-filtered.vcf.gz
+output_vcf: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s02_IHCAPX8/s04_explore_and_qc_short_variant_vcfs/IHCAPX8_short_variants_pf.vcf.gz
+
+Counts in source VCF
+
+[W::hts_idx_load3] The index file is older than the data file: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s02_IHCAPX8/s03_dragen_joined_genotyping/s01_short_variants/IHCAPX8_dragen_joint.hard-filtered.vcf.gz.tbi
+Number of samples: 3
+Number of SNPs:    6255182
+Number of INDELs:  1363927
+Number of MNPs:    0
+Number of others:  0
+Number of sites:   7597709
+
+FILTER column in source VCF
+
+[W::hts_idx_load3] The index file is older than the data file: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s02_IHCAPX8/s03_dragen_joined_genotyping/s01_short_variants/IHCAPX8_dragen_joint.hard-filtered.vcf.gz.tbi
+7340086 PASS
+ 163036 DRAGENSnpHardQUAL
+  58619 DRAGENIndelHardQUAL
+  33331 DRAGENSnpHardQUAL;LowDepth
+   1392 DRAGENIndelHardQUAL;LowDepth
+   1245 LowDepth
+
+Filtering ...
+
+[W::hts_idx_load3] The index file is older than the data file: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s02_IHCAPX8/s03_dragen_joined_genotyping/s01_short_variants/IHCAPX8_dragen_joint.hard-filtered.vcf.gz.tbi
+Counts in output VCF
+
+Number of samples: 3
+Number of SNPs:    6058733
+Number of INDELs:  1302671
+Number of MNPs:    0
+Number of others:  0
+Number of sites:   7340086
+
+FILTER column in output VCF
+
+7340086 PASS
+
+Calculating stats for output VCF ...
+Making plots...
+Parsing bcftools stats output: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s02_IHCAPX8/s04_explore_and_qc_short_variant_vcfs/s02_bcfstats_filtered/bcfstats.vchk
+Plotting graphs: python3 plot.py
+Creating PDF: pdflatex summary.tex >plot-vcfstats.log 2>&1
+Finished: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s02_IHCAPX8/s04_explore_and_qc_short_variant_vcfs/s02_bcfstats_filtered/summary.pdf
+
+Done all tasks
+Tue  1 Dec 16:34:10 GMT 2020

@@ -1,0 +1,127 @@
+Job id: 31847614
+Allocated node: cpu-e-15
+Sun 29 Nov 13:33:51 GMT 2020
+
+Job name: s15_download_dragen_joined_small_variants_IHCAPX8
+
+Initial working folder:
+/rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s00_scripts/s03_download_results_from_basespace/s02_dragen_joined_genotyping_pipeline
+
+ ------------------ Job progress ------------------ 
+
+Download dataset from BaseSpace
+Sun 29 Nov 13:33:51 GMT 2020
+
+bs: /rds/project/erf33/rds-erf33-medgen/tools/bs/bs_cli_1.2.1/bs
+project_name: IHCAPX8
+filter_field: AppSession.Name
+filter_term: Dragen Joint Genotyping Pipeline IHCAPX8 11/28/2020
+dataset_id: ds.020f0ea2e8194bb0870ab85b629490d1
+target_folder: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s02_IHCAPX8/s03_dragen_joined_genotyping/s01_short_variants
+
+bs credentials:
+
++----------------+----------------------------------------------------+
+| Name           | Alexey Larionov                                    |
+| Id             | 22512492                                           |
+| Email          | alexey.larionov.47@gmail.com                       |
+| DateCreated    | 2020-11-20 19:59:35 +0000 UTC                      |
+| DateLastActive | 2020-11-29 13:15:27 +0000 UTC                      |
+| Host           | https://api.basespace.illumina.com                 |
+| Scopes         | READ GLOBAL, CREATE GLOBAL, BROWSE GLOBAL,         |
+|                | CREATE PROJECTS, CREATE RUNS, START APPLICATIONS,  |
+|                | MOVETOTRASH GLOBAL, WRITE GLOBAL                   |
++----------------+----------------------------------------------------+
+
+All datasets in the project
+
++-----------+-------------------------------------+--------------+-------------------------------+
+|   Name    |                 Id                  | Project.Name |        DataSetType.Id         |
++-----------+-------------------------------------+--------------+-------------------------------+
+| joint     | ds.b625266658ec4c7b88ebbf67ede6f7fc | IHCAPX8      | common.files                  |
+| joint     | ds.6573267e07ea4338ae33cdc5fffd3090 | IHCAPX8      | common.files                  |
+| joint     | ds.1a65353877984df9919273fe6d7c4c60 | IHCAPX8      | common.files                  |
+| joint     | ds.020f0ea2e8194bb0870ab85b629490d1 | IHCAPX8      | common.files                  |
+| IHCAPX8-1 | ds.a4ac66816d5945ffbb3f718f4d86ce28 | IHCAPX8      | illumina.dragen.complete.v0.2 |
+| IHCAPX8-2 | ds.b9d3d3c60f77482ea17c0f29d110261d | IHCAPX8      | illumina.dragen.complete.v0.2 |
+| IHCAPX8-3 | ds.4e3e25eec8d84824b6c0ce9cf587f078 | IHCAPX8      | illumina.dragen.complete.v0.2 |
+| IHCAPX8-3 | ds.308e5a9174f14585838c368fe5707dea | IHCAPX8      | illumina.fastq.v1.8           |
+| IHCAPX8-2 | ds.cc232fba9c4249ee9f619a65a275b182 | IHCAPX8      | illumina.fastq.v1.8           |
+| IHCAPX8-1 | ds.244ec92ba7f5479d81f6bfec7bb8ca48 | IHCAPX8      | illumina.fastq.v1.8           |
++-----------+-------------------------------------+--------------+-------------------------------+
+
+Content of the selected dataset
+
++---------------------------------------------------+--------------------------------------------------------------------------------------------+
+| Id                                                | ds.020f0ea2e8194bb0870ab85b629490d1                                                        |
+| Name                                              | joint                                                                                      |
+| DateCreated                                       | 2020-11-28 12:50:05 +0000 UTC                                                              |
+| DateModified                                      | 2020-11-28 12:50:05 +0000 UTC                                                              |
+| AppSession.Id                                     | 347440189                                                                                  |
+| AppSession.Name                                   | Dragen Joint Genotyping Pipeline IHCAPX8                                                   |
+|                                                   | 11/28/2020 12:27:11                                                                        |
+| AppSession.Application.AppFamilySlug              | edico-genome-inc.dragen-joint-genotyping-pipeline                                          |
+| AppSession.Application.AppVersionSlug             | edico-genome-inc.dragen-joint-genotyping-pipeline.3.6.3                                    |
+| AppSession.Application.Id                         | 10499489                                                                                   |
+| AppSession.Application.VersionNumber              | 3.6.3                                                                                      |
+| AppSession.Application.HomepageUri                | https://www.illumina.com/products/by-type/informatics-products/dragen-bio-it-platform.html |
+| AppSession.Application.ShortDescription           | The DRAGEN Joint Genotyping Pipeline calls                                                 |
+|                                                   | variants from multiple samples.                                                            |
+| AppSession.Application.LongDescription            |                                                                                            |
+| AppSession.Application.Category                   | Native                                                                                     |
+| AppSession.Application.UserOwnedBy.Id             |                                                                                            |
+| AppSession.Application.UserOwnedBy.Name           |                                                                                            |
+| AppSession.Application.UserOwnedBy.GravatarURL    |                                                                                            |
+| AppSession.Application.UserOwnedBy.DateLastActive |                                                                                            |
+| AppSession.Application.UserOwnedBy.DateCreated    |                                                                                            |
+| AppSession.Application.Name                       | Dragen Joint Genotyping Pipeline                                                           |
+| AppSession.Application.CompanyName                | Edico Genome Inc.                                                                          |
+| AppSession.ExecutionStatus                        | Complete                                                                                   |
+| AppSession.QcStatus                               | Undefined                                                                                  |
+| AppSession.DeliveryStatus                         | None                                                                                       |
+| AppSession.UserCreatedBy.Id                       | 22512492                                                                                   |
+| AppSession.UserCreatedBy.Name                     | Alexey Larionov                                                                            |
+| AppSession.UserCreatedBy.GravatarURL              | https://secure.gravatar.com/avatar/23cbca99a86e9524d8e1331d9cec78e6.jpg?s=20&d=mm&r=PG     |
+| AppSession.UserCreatedBy.DateLastActive           |                                                                                            |
+| AppSession.UserCreatedBy.DateCreated              | 2020-11-20T19:59:35.0000000Z                                                               |
+| AppSession.StatusSummary                          | Application completed successfully                                                         |
+| AppSession.DateCreated                            | 2020-11-28 12:35:29 +0000 UTC                                                              |
+| AppSession.DateModified                           | 2020-11-28 12:50:09 +0000 UTC                                                              |
+| AppSession.DateCompleted                          | 2020-11-28 12:49:55 +0000 UTC                                                              |
+| AppSession.TotalSize                              | 1805411212                                                                                 |
+| AppSession.RunningDuration                        | 0                                                                                          |
+| AppSession.ComputeStatistics.Unit                 |                                                                                            |
+| AppSession.ComputeStatistics.Amount               | 0                                                                                          |
+| Project.Name                                      | IHCAPX8                                                                                    |
+| Project.Id                                        | 213460248                                                                                  |
+| Project.UserOwnedBy.Id                            | 22512492                                                                                   |
+| Project.UserOwnedBy.Name                          | Alexey Larionov                                                                            |
+| Project.UserOwnedBy.GravatarURL                   | https://secure.gravatar.com/avatar/23cbca99a86e9524d8e1331d9cec78e6.jpg?s=20&d=mm&r=PG     |
+| Project.UserOwnedBy.DateLastActive                |                                                                                            |
+| Project.UserOwnedBy.DateCreated                   | 2020-11-20T19:59:35.0000000Z                                                               |
+| Project.DateCreated                               | 2020-11-27 12:51:58 +0000 UTC                                                              |
+| Project.DateModified                              | 2020-11-28 15:35:13 +0000 UTC                                                              |
+| Project.Description                               | a bladder cancer family, wgs,2020                                                          |
+| Project.TotalSize                                 | 284415302247                                                                               |
+| UserOwnedBy.Id                                    | 22512492                                                                                   |
+| UserOwnedBy.Name                                  | Alexey Larionov                                                                            |
+| UserOwnedBy.GravatarURL                           | https://secure.gravatar.com/avatar/23cbca99a86e9524d8e1331d9cec78e6.jpg?s=20&d=mm&r=PG     |
+| UserOwnedBy.DateLastActive                        |                                                                                            |
+| UserOwnedBy.DateCreated                           | 2020-11-20T19:59:35.0000000Z                                                               |
+| DataSetType.Id                                    | common.files                                                                               |
+| DataSetType.Name                                  | Common Files                                                                               |
+| QcStatus                                          | Undefined                                                                                  |
+| QcStatusSummary                                   | No thresholds were evaluated                                                               |
+| UploadStatus                                      | Completed                                                                                  |
+| UploadStatusSummary                               |                                                                                            |
+| ValidationStatus                                  | Passed                                                                                     |
+| TotalSize                                         | 1805411212                                                                                 |
+| IsFileDataDeleted                                 | false                                                                                      |
+| IsArchived                                        | false                                                                                      |
+| V1pre3Id                                          | ar.243941712                                                                               |
++---------------------------------------------------+--------------------------------------------------------------------------------------------+
+
+Downloading data ...
+
+Done
+Sun 29 Nov 13:34:55 GMT 2020

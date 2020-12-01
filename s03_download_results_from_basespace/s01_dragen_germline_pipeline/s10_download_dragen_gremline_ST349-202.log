@@ -1,0 +1,132 @@
+Job id: 31835085
+Allocated node: cpu-e-7
+Sun 29 Nov 11:50:30 GMT 2020
+
+Job name: s10_download_dragen_gremline_ST349-202
+
+Initial working folder:
+/rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s00_scripts/s03_download_results_from_basespace
+
+ ------------------ Job progress ------------------ 
+
+Download dataset from BaseSpace
+Sun 29 Nov 11:50:30 GMT 2020
+
+bs: /rds/project/erf33/rds-erf33-medgen/tools/bs/bs_cli_1.2.1/bs
+project_name: ST349
+sample_name: ST349-202
+dataset_type: illumina.dragen.complete.v0.2
+dataset_id: ds.5f8da2c2d7644cc793d73fc585c54915
+target_folder: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s04_ST349/s02_dragen_germline/ST349-202
+
+bs credentials:
+
++----------------+----------------------------------------------------+
+| Name           | Alexey Larionov                                    |
+| Id             | 22512492                                           |
+| Email          | alexey.larionov.47@gmail.com                       |
+| DateCreated    | 2020-11-20 19:59:35 +0000 UTC                      |
+| DateLastActive | 2020-11-29 09:55:55 +0000 UTC                      |
+| Host           | https://api.basespace.illumina.com                 |
+| Scopes         | READ GLOBAL, CREATE GLOBAL, BROWSE GLOBAL,         |
+|                | CREATE PROJECTS, CREATE RUNS, START APPLICATIONS,  |
+|                | MOVETOTRASH GLOBAL, WRITE GLOBAL                   |
++----------------+----------------------------------------------------+
+
+All datasets in the project
+
++-----------+-------------------------------------+--------------+-------------------------------+
+|   Name    |                 Id                  | Project.Name |        DataSetType.Id         |
++-----------+-------------------------------------+--------------+-------------------------------+
+| joint     | ds.a6587202a2e540349f5b561c4cda620d | ST349        | common.files                  |
+| joint     | ds.6db0915b965f4b039ac8b110575bbbfe | ST349        | common.files                  |
+| joint     | ds.4e6d6010c8cd4e1bbca025f92e0078b7 | ST349        | common.files                  |
+| joint     | ds.69b7595a25d146159741792d587fc7d6 | ST349        | common.files                  |
+| ST349     | ds.35e6a07e54a14422bd46566e8901c748 | ST349        | common.files                  |
+| ST349-202 | ds.5f8da2c2d7644cc793d73fc585c54915 | ST349        | illumina.dragen.complete.v0.2 |
+| ST349-303 | ds.7b86222a52cf492db4f352ebce72375e | ST349        | illumina.dragen.complete.v0.2 |
+| ST349-301 | ds.80d96486516b49dba5cd8cf23720c38d | ST349        | illumina.dragen.complete.v0.2 |
+| ST349-252 | ds.c89d016ec96e49a2ab5de88f511b2f3d | ST349        | illumina.dragen.complete.v0.2 |
+| ST349-302 | ds.aad43c28adbd4ccd8afc5d862ce16639 | ST349        | illumina.dragen.complete.v0.2 |
+| ST349-303 | ds.2436430e52f64f39824be4cf704c22a8 | ST349        | illumina.fastq.v1.8           |
+| ST349-302 | ds.1dc56064bf524288a8f337f6a8ca7610 | ST349        | illumina.fastq.v1.8           |
+| ST349-301 | ds.ff9e31345be34442991442ce432355e1 | ST349        | illumina.fastq.v1.8           |
+| ST349-252 | ds.d18cf9780c33499e92c440fde5c045af | ST349        | illumina.fastq.v1.8           |
+| ST349-202 | ds.1abf28106864457fb561de0e392301e1 | ST349        | illumina.fastq.v1.8           |
++-----------+-------------------------------------+--------------+-------------------------------+
+
+Content of the selected dataset
+
++---------------------------------------------------+----------------------------------------------------------------------------------------+
+| Id                                                | ds.5f8da2c2d7644cc793d73fc585c54915                                                    |
+| Name                                              | ST349-202                                                                              |
+| DateCreated                                       | 2020-11-27 23:12:41 +0000 UTC                                                          |
+| DateModified                                      | 2020-11-27 23:12:42 +0000 UTC                                                          |
+| AppSession.Id                                     | 347435092                                                                              |
+| AppSession.Name                                   | ST349-202                                                                              |
+| AppSession.Application.AppFamilySlug              | illumina-inc.dragen-germline                                                           |
+| AppSession.Application.AppVersionSlug             | illumina-inc.dragen-germline.3.6.3                                                     |
+| AppSession.Application.Id                         | 10489479                                                                               |
+| AppSession.Application.VersionNumber              | 3.6.3                                                                                  |
+| AppSession.Application.HomepageUri                | https://support.illumina.com/downloads/dragen-germline-pipeline-online-help.html       |
+| AppSession.Application.ShortDescription           | The DRAGEN Germline Pipeline v3 aligns and                                             |
+|                                                   | optionally variant calls FASTQ files, outputting a                                     |
+|                                                   | BAM, VCF, or both.                                                                     |
+| AppSession.Application.LongDescription            |                                                                                        |
+| AppSession.Application.Category                   | Native                                                                                 |
+| AppSession.Application.UserOwnedBy.Id             |                                                                                        |
+| AppSession.Application.UserOwnedBy.Name           |                                                                                        |
+| AppSession.Application.UserOwnedBy.GravatarURL    |                                                                                        |
+| AppSession.Application.UserOwnedBy.DateLastActive |                                                                                        |
+| AppSession.Application.UserOwnedBy.DateCreated    |                                                                                        |
+| AppSession.Application.Name                       | DRAGEN Germline                                                                        |
+| AppSession.Application.CompanyName                | Illumina, Inc.                                                                         |
+| AppSession.ExecutionStatus                        | Complete                                                                               |
+| AppSession.QcStatus                               | Undefined                                                                              |
+| AppSession.DeliveryStatus                         | None                                                                                   |
+| AppSession.UserCreatedBy.Id                       | 22512492                                                                               |
+| AppSession.UserCreatedBy.Name                     | Alexey Larionov                                                                        |
+| AppSession.UserCreatedBy.GravatarURL              | https://secure.gravatar.com/avatar/23cbca99a86e9524d8e1331d9cec78e6.jpg?s=20&d=mm&r=PG |
+| AppSession.UserCreatedBy.DateLastActive           |                                                                                        |
+| AppSession.UserCreatedBy.DateCreated              | 2020-11-20T19:59:35.0000000Z                                                           |
+| AppSession.StatusSummary                          | Application completed successfully                                                     |
+| AppSession.DateCreated                            | 2020-11-27 21:24:56 +0000 UTC                                                          |
+| AppSession.DateModified                           | 2020-11-27 23:12:42 +0000 UTC                                                          |
+| AppSession.DateCompleted                          | 2020-11-27 23:12:38 +0000 UTC                                                          |
+| AppSession.TotalSize                              | 51297878937                                                                            |
+| AppSession.RunningDuration                        | 0                                                                                      |
+| AppSession.ComputeStatistics.Unit                 |                                                                                        |
+| AppSession.ComputeStatistics.Amount               | 0                                                                                      |
+| Project.Name                                      | ST349                                                                                  |
+| Project.Id                                        | 213336130                                                                              |
+| Project.UserOwnedBy.Id                            | 22512492                                                                               |
+| Project.UserOwnedBy.Name                          | Alexey Larionov                                                                        |
+| Project.UserOwnedBy.GravatarURL                   | https://secure.gravatar.com/avatar/23cbca99a86e9524d8e1331d9cec78e6.jpg?s=20&d=mm&r=PG |
+| Project.UserOwnedBy.DateLastActive                |                                                                                        |
+| Project.UserOwnedBy.DateCreated                   | 2020-11-20T19:59:35.0000000Z                                                           |
+| Project.DateCreated                               | 2020-11-27 12:53:54 +0000 UTC                                                          |
+| Project.DateModified                              | 2020-11-28 19:41:58 +0000 UTC                                                          |
+| Project.Description                               | a gastric cancer family, wgs, 2020                                                     |
+| Project.TotalSize                                 | 478665448863                                                                           |
+| UserOwnedBy.Id                                    | 22512492                                                                               |
+| UserOwnedBy.Name                                  | Alexey Larionov                                                                        |
+| UserOwnedBy.GravatarURL                           | https://secure.gravatar.com/avatar/23cbca99a86e9524d8e1331d9cec78e6.jpg?s=20&d=mm&r=PG |
+| UserOwnedBy.DateLastActive                        |                                                                                        |
+| UserOwnedBy.DateCreated                           | 2020-11-20T19:59:35.0000000Z                                                           |
+| DataSetType.Id                                    | illumina.dragen.complete.v0.2                                                          |
+| DataSetType.Name                                  | Dragen.Complete.V0.2                                                                   |
+| QcStatus                                          | Undefined                                                                              |
+| QcStatusSummary                                   | No thresholds were evaluated                                                           |
+| UploadStatus                                      | Completed                                                                              |
+| UploadStatusSummary                               |                                                                                        |
+| ValidationStatus                                  | Passed                                                                                 |
+| TotalSize                                         | 51297878937                                                                            |
+| IsFileDataDeleted                                 | false                                                                                  |
+| IsArchived                                        | false                                                                                  |
+| V1pre3Id                                          | ar.243944704                                                                           |
++---------------------------------------------------+----------------------------------------------------------------------------------------+
+
+Downloading data ...
+
+Done
+Sun 29 Nov 12:33:01 GMT 2020

@@ -1,0 +1,54 @@
+Job id: 31814434
+Allocated node: cpu-e-219
+Fri 27 Nov 17:18:06 GMT 2020
+
+Job name: s06_upload_to_basespace_ST349
+
+Initial working folder:
+/rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s00_scripts
+
+ ------------------ Job progress ------------------ 
+
+Uploading WGS data to BaseSpace
+Fri 27 Nov 17:18:06 GMT 2020
+
+bs: /rds/project/erf33/rds-erf33-medgen/tools/bs/bs_cli_1.2.1/bs
+data_folder: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s02_fastq/ST349
+project_name: ST349
+project_id: 213336130
+
+bs credentials:
+
++----------------+----------------------------------------------------+
+| Name           | Alexey Larionov                                    |
+| Id             | 22512492                                           |
+| Email          | alexey.larionov.47@gmail.com                       |
+| DateCreated    | 2020-11-20 19:59:35 +0000 UTC                      |
+| DateLastActive | 2020-11-27 17:02:20 +0000 UTC                      |
+| Host           | https://api.basespace.illumina.com                 |
+| Scopes         | READ GLOBAL, CREATE GLOBAL, BROWSE GLOBAL,         |
+|                | CREATE PROJECTS, CREATE RUNS, START APPLICATIONS,  |
+|                | MOVETOTRASH GLOBAL, WRITE GLOBAL                   |
++----------------+----------------------------------------------------+
+Available projects on BaseSpace
++---------+-----------+-------------+
+|  Name   |    Id     |  TotalSize  |
++---------+-----------+-------------+
+| test1   | 212347137 | 95847785138 |
+| test2   | 212760548 | 45685639745 |
+| ST349   | 213336130 | 0           |
+| IHCAPX8 | 213460248 | 45685639745 |
++---------+-----------+-------------+
+Creating sample: ST349-202
+upload complete
+Creating sample: ST349-252
+upload complete
+Creating sample: ST349-301
+upload complete
+Creating sample: ST349-302
+upload complete
+Creating sample: ST349-303
+upload complete
+
+Done
+Fri 27 Nov 20:00:13 GMT 2020

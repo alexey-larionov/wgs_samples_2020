@@ -1,0 +1,18 @@
+Job id: 31100641
+Allocated node: cpu-e-815
+Wed 11 Nov 17:36:32 GMT 2020
+
+Job name: download_wgs_data
+
+Initial working folder:
+/rds/project/erf33/rds-erf33-medgen/data/wgs_Nov2020
+
+ ------------------ Job progress ------------------ 
+
+Downloading WGS data
+Wed 11 Nov 17:36:32 GMT 2020
+
+2020-11-11 18:58:09 URL:http://sunstrider.medgen.medschl.cam.ac.uk/alarionov/20201027_WGS_alarionov.tar.gz [372711018707/372711018707] -> "20201027_WGS_alarionov.tar.gz" [1]
+
+Done
+Wed 11 Nov 18:58:10 GMT 2020

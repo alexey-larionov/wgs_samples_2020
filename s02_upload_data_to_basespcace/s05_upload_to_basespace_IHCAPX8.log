@@ -1,0 +1,50 @@
+Job id: 31809284
+Allocated node: cpu-e-260
+Fri 27 Nov 16:10:20 GMT 2020
+
+Job name: s05_upload_to_basespace_IHCAPX8
+
+Initial working folder:
+/rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s00_scripts
+
+ ------------------ Job progress ------------------ 
+
+Uploading WGS data to BaseSpace
+Fri 27 Nov 16:10:20 GMT 2020
+
+bs: /rds/project/erf33/rds-erf33-medgen/tools/bs/bs_cli_1.2.1/bs
+data_folder: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s02_fastq/IHCAPX8
+project_name: IHCAPX8
+project_id: 213460248
+
+bs credentials:
+
++----------------+----------------------------------------------------+
+| Name           | Alexey Larionov                                    |
+| Id             | 22512492                                           |
+| Email          | alexey.larionov.47@gmail.com                       |
+| DateCreated    | 2020-11-20 19:59:35 +0000 UTC                      |
+| DateLastActive | 2020-11-27 12:49:32 +0000 UTC                      |
+| Host           | https://api.basespace.illumina.com                 |
+| Scopes         | READ GLOBAL, CREATE GLOBAL, BROWSE GLOBAL,         |
+|                | CREATE PROJECTS, CREATE RUNS, START APPLICATIONS,  |
+|                | MOVETOTRASH GLOBAL, WRITE GLOBAL                   |
++----------------+----------------------------------------------------+
+Available projects on BaseSpace
++---------+-----------+-------------+
+|  Name   |    Id     |  TotalSize  |
++---------+-----------+-------------+
+| test1   | 212347137 | 95847785138 |
+| test2   | 212760548 | 45685639745 |
+| ST349   | 213336130 | 0           |
+| IHCAPX8 | 213460248 | 0           |
++---------+-----------+-------------+
+Creating sample: IHCAPX8-1
+upload complete
+Creating sample: IHCAPX8-2
+upload complete
+Creating sample: IHCAPX8-3
+upload complete
+
+Done
+Fri 27 Nov 17:54:15 GMT 2020

@@ -1,0 +1,24 @@
+Job id: 31940022
+Allocated node: cpu-e-1
+Tue  1 Dec 16:46:18 GMT 2020
+
+Job name: s03_extract_vcf_header_and_some_records_IHCAPX8
+
+Initial working folder:
+/rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s00_scripts/s04_explore_and_qc_short_variant_vcfs
+
+ ------------------ Job progress ------------------ 
+
+Remove filtered variants from IHCAPX8 hard filters
+and calculate stats after the removal
+Tue  1 Dec 16:46:18 GMT 2020
+
+source_vcf: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s02_IHCAPX8/s04_explore_and_qc_short_variant_vcfs/IHCAPX8_short_variants_pf.vcf.gz
+vcf_header: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s02_IHCAPX8/s04_explore_and_qc_short_variant_vcfs/s03_extracts_from_vcf/IHCAPX8_short_variants_pf_header.txt
+vcf_extract: /rds/project/erf33/rds-erf33-medgen/data/wgs_nov_2020/s02_IHCAPX8/s04_explore_and_qc_short_variant_vcfs/s03_extracts_from_vcf/IHCAPX8_short_variants_pf_extract.txt
+
+Extracting header ...
+Extracting some variant records ...
+
+Done all tasks
+Tue  1 Dec 16:47:35 GMT 2020
